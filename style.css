@@ -33,6 +33,18 @@ h3 {
   letter-spacing: 2px;
 }
 
+h4 {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #e84393;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  background: linear-gradient(90deg, rgba(255, 105, 180, 0.5), rgba(255, 159, 243, 0.5));
+  padding: 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
 .joke {
   font-size: 30px;
   letter-spacing: 1px;
