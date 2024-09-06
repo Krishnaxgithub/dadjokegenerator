@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background: linear-gradient(135deg, #686de0, #30336b);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -30,13 +30,14 @@ body {
 h3 {
   margin-top: 20px;
   font-size: 28px;
-  color: #e84393;
+  color: #dfe6e9;
   font-weight: bold;
   letter-spacing: 1.5px;
-  background: linear-gradient(90deg, rgba(255, 105, 180, 0.5), rgba(255, 159, 243, 0.5));
+  background: linear-gradient(90deg, rgba(108, 92, 231, 0.8), rgba(56, 173, 169, 0.8));
   padding: 10px;
   border-radius: 12px;
   display: inline-block;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .joke {
@@ -45,10 +46,26 @@ h3 {
   line-height: 40px;
   margin: 50px auto;
   max-width: 600px;
+  padding: 20px;
+  background: rgba(108, 92, 231, 0.15); /* Light purple background */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4); /* Purple glow effect */
+  color: #fff;
+  font-weight: bold;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4);
+  }
+  to {
+    box-shadow: 0 5px 20px rgba(108, 92, 231, 0.8);
+  }
 }
 
 .btn {
-  background-color: #9f68e0;
+  background-color: #6c5ce7;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -56,6 +73,10 @@ h3 {
   padding: 14px 40px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4834d4;
 }
 
 .btn:active {
