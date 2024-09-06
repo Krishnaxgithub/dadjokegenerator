@@ -50,7 +50,7 @@ h3 {
   background: rgba(108, 92, 231, 0.15); /* Light purple background */
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4); /* Purple glow effect */
-  color: #fff;
+  color: #2d3436; /* Darker text color for better visibility */
   font-weight: bold;
   animation: glow 2s infinite alternate;
 }
